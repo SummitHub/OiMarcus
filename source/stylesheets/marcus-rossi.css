@@ -986,7 +986,6 @@ a:hover {
   -webkit-flex: 0 45%;
   -ms-flex: 0 45%;
   flex: 0 45%;
-  background-image: url('../images/placeholder-artigo.png');
   background-position: 50% 50%;
   background-size: cover;
 }
