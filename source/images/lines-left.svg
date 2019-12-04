@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114.457" height="390.811" viewBox="0 0 114.457 390.811">
+  <g id="lines-left" transform="translate(15.231 -655.55)">
+    <g id="side-lines" transform="translate(-13.838 1045.994) rotate(-90)">
+      <g id="Grupo_41" data-name="Grupo 41" transform="translate(0 0)">
+        <line id="Linha_15" data-name="Linha 15" x2="69.856" y2="27.526" transform="translate(208.586)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Linha_16" data-name="Linha 16" x2="112.164" y2="44.197" transform="translate(167.262 0.582)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Linha_17" data-name="Linha 17" x2="27.057" y2="10.662" transform="translate(252.369 0.582)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Linha_18" data-name="Linha 18" x2="154.963" y2="61.062" transform="translate(123.479)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Linha_19" data-name="Linha 19" x2="194.811" y2="76.57" transform="translate(83.139 0.969)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Linha_20" data-name="Linha 20" x2="236.135" y2="93.047" transform="translate(39.848 0.582)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Linha_21" data-name="Linha 21" x2="278.442" y2="109.717" transform="translate(0 1.551)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="side-lines-2" data-name="side-lines" transform="matrix(0.017, -1, 1, 0.017, -14.521, 768.504)">
+      <line id="Linha_8" data-name="Linha 8" y1="27.772" x2="27.771" transform="translate(0 0.391)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Linha_9" data-name="Linha 9" y1="44.591" x2="44.591" transform="translate(0.587 0)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Linha_10" data-name="Linha 10" y1="10.757" x2="10.757" transform="translate(0.587 0)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Linha_11" data-name="Linha 11" y1="61.606" x2="61.606" transform="translate(0 0.391)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Linha_12" data-name="Linha 12" y1="77.447" x2="77.252" transform="translate(0.978 0.587)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Linha_13" data-name="Linha 13" y1="93.876" x2="93.875" transform="translate(0.587 1.369)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Linha_14" data-name="Linha 14" y1="110.695" x2="110.695" transform="translate(1.565 0.391)" fill="none" stroke="#ff3e88" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
