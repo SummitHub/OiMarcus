@@ -71,14 +71,20 @@ a:hover {
   float: none;
 }
 
+.header_navbar_actions-bundle{
+  display: flex;
+  flex: 29%;
+  justify-content: space-around;
+}
+
 .header_navbar_menu_item {
+  flex: 71%;
   margin-right: 0px;
   margin-left: 0px;
   padding: 0px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
-  flex: 0 auto;
   background-color: transparent;
   -webkit-transition: all 250ms ease;
   transition: all 250ms ease;
@@ -113,6 +119,11 @@ a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+.header_navbar_actions {
+  display: flex; 
+  align-items: center;
+  width: 260px;
 }
 
 .hero-section_content {
@@ -1196,7 +1207,7 @@ a:hover {
 
 @media (max-width: 991px) {
   .hero-section {
-    height: auto;
+    min-height: 750px;
   }
   .container {
     width: 90%;
@@ -1429,6 +1440,13 @@ a:hover {
 }
 
 @media (max-width: 479px) {
+  .header_navbar_actions {
+    width: 240px;
+  }
+  .header_navbar_menu_item {
+    flex: 50%;
+    text-align: center;
+  }
   .hero-section_content {
     padding-top: 25px;
   }
@@ -1575,6 +1593,22 @@ a:hover {
   .article-page_header_photo {
     height: 190px;
   }
+}
+
+.fa.fa-instagram {
+  cursor: pointer; 
+  font-size: 16px; 
+  color: #ED4A55; 
+}
+
+.fa.fa-linkedin{
+  cursor: pointer; 
+  font-size: 16px; 
+  color: #0076b5; 
+}
+
+.black-hover:hover {
+  color: black !important;
 }
 
 @font-face {
