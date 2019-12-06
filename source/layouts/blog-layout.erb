@@ -1,0 +1,44 @@
+---
+title: <%= current_page.data.title %>
+---
+<% wrap_layout :layout do %>
+    <div class="article-page_header">
+      <div class="container">
+        <h1 class="article-page_header_title"><%= current_page.data.title %></h1>
+        <div class="articles-section_list_item_text_detail article-page_header_detail"><%= current_page.data.date.strftime('%e de %b de %Y') %> - <%= current_page.data.readTime %> min de Leitura</div>
+      </div>
+      <div class="article-page_header_photo" style="  background-image: url('..<%= current_page.data.mainImage %>');"></div>
+    </div>
+    <div class="article-page_content">
+      <div class="container">
+        <div class="article-page_content-box"><%= yield %></div>
+      </div>
+    </div>
+    <div class="articles-section page">
+      <div class="container">
+        <h2 class="call-section_title">Confira outros<br><span class="dark-text">artigos relacionados</span></h2>
+        <div class="articles-section_list">
+          <% blog.articles[0...1].each do |article| %>
+            <a href="<%= article.url %>" class="articles-section_list_item highlight w-inline-block">
+              <div style="background-image: url(..<%= article.data.mainImage %>);" class="articles-section_list_item_photo highlight-photo"></div>
+              <div class="articles-section_list_item_text highlight-text">
+                <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
+                <div class="articles-section_list_item_text_p"><%= article.summary %></div>
+                <div class="articles-section_list_item_text_detail"><%= article.date.strftime('%e de %b de %Y') %> - <%= article.data.readTime %> min de Leitura</div>
+              </div>
+            </a>
+          <% end %>
+          <% blog.articles[1...].each do |article| %>
+            <a href="<%= article.url %>" class="articles-section_list_item w-inline-block">
+              <div style="background-image: url(..<%= article.data.mainImage %>);" class="articles-section_list_item_photo"></div>
+              <div class="articles-section_list_item_text">
+                <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
+                <div class="articles-section_list_item_text_p"><%= article.summary %></div>
+                <div class="articles-section_list_item_text_detail"><%= article.date.strftime('%e de %b de %Y') %> - <%= article.data.readTime %> min de Leitura</div>
+              </div>
+            </a>
+          <% end %>
+        </div>
+      </div>
+    </div>
+<% end %>

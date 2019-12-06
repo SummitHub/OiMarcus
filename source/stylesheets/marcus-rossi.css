@@ -54,6 +54,7 @@ a:hover {
   margin: auto;
   left: 0;
   right: 0;
+  top: 0;
 }
 
 .header_navbar {
@@ -950,7 +951,7 @@ a:hover {
 }
 
 .articles-section.page {
-  padding-top: 75px;
+  padding-top: 169px;
   padding-bottom: 75px;
 }
 
@@ -1019,7 +1020,7 @@ a:hover {
 
 .articles-section_list_item_text_p {
   font-family: 'Circular Std', sans-serif;
-  color: #6f6f6f;
+  color: #333;
   font-weight: 400;
   letter-spacing: 0px;
   text-transform: none;
@@ -1144,6 +1145,10 @@ a:hover {
   color: #fff;
 }
 
+.article-page_header {
+  margin-top: 138px;
+}
+
 .article-page_header_title {
   margin-top: 70px;
   margin-bottom: 5px;
@@ -1154,7 +1159,6 @@ a:hover {
 .article-page_header_photo {
   height: 250px;
   margin-top: 35px;
-  background-image: url('../images/capa-artigo.png');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1271,6 +1275,7 @@ a:hover {
   }
   .photo-section_content_left-box {
     margin-bottom: 80px;
+    margin-top: 65px;
     text-align: center;
   }
   .photo-section_content_right-box {
