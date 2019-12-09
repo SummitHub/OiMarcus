@@ -13,7 +13,9 @@ data_page: 5da4a577fe28e783c868703f
           <div class="articles-section_list_item_text highlight-text">
             <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
             <div class="articles-section_list_item_text_p"><%= article.summary %></div>
-            <div class="articles-section_list_item_text_detail"><%= article.date.strftime('%e de %b de %Y') %> - <%= article.data.readTime %> min de Leitura</div>
+            <div class="articles-section_list_item_text_detail">
+              <%= article.date.strftime('%e de ') %><span class="month-abreviation"><%= article.date.strftime('%b') %></span> <%= article.date.strftime(' de %Y') %> - <%= article.data.readTime %> min de Leitura
+            </div> 
           </div>
         </a>
       <% end %>
@@ -23,10 +25,12 @@ data_page: 5da4a577fe28e783c868703f
           <div class="articles-section_list_item_text">
             <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
             <div class="articles-section_list_item_text_p"><%= article.summary %></div>
-            <div class="articles-section_list_item_text_detail"><%= article.date.strftime('%e de %b de %Y') %> - <%= article.data.readTime %> min de Leitura</div>
+            <div class="articles-section_list_item_text_detail">
+              <%= article.date.strftime('%e de ') %><span class="month-abreviation"><%= article.date.strftime('%b') %></span> <%= article.date.strftime(' de %Y') %> - <%= article.data.readTime %> min de Leitura
+            </div> 
           </div>
         </a>
-      <% end %>
+      <% end %> 
     </div>
   </div>
 </div>

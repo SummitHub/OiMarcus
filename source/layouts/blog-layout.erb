@@ -5,7 +5,10 @@ title: <%= current_page.data.title %>
     <div class="article-page_header">
       <div class="container">
         <h1 class="article-page_header_title"><%= current_page.data.title %></h1>
-        <div class="articles-section_list_item_text_detail article-page_header_detail"><%= current_page.data.date.strftime('%e de %b de %Y') %> - <%= current_page.data.readTime %> min de Leitura</div>
+        <div class="articles-section_list_item_text_detail article-page_header_detail">
+          <%= current_page.data.date.strftime('%e de ') %><span class="month-abreviation"><%= current_page.data.date.strftime('%b') %></span> <%= current_page.data.date.strftime(' de %Y') %> - <%= current_page.data.readTime %> min de Leitura
+        </div>
+      
       </div>
       <div class="article-page_header_photo" style="  background-image: url('..<%= current_page.data.mainImage %>');"></div>
     </div>
@@ -24,7 +27,9 @@ title: <%= current_page.data.title %>
               <div class="articles-section_list_item_text highlight-text">
                 <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
                 <div class="articles-section_list_item_text_p"><%= article.summary %></div>
-                <div class="articles-section_list_item_text_detail"><%= article.date.strftime('%e de %b de %Y') %> - <%= article.data.readTime %> min de Leitura</div>
+                <div class="articles-section_list_item_text_detail">
+                  <%= article.date.strftime('%e de ') %><span class="month-abreviation"><%= article.date.strftime('%b') %></span> <%= article.date.strftime(' de %Y') %> - <%= article.data.readTime %> min de Leitura
+                </div> 
               </div>
             </a>
           <% end %>
@@ -34,10 +39,12 @@ title: <%= current_page.data.title %>
               <div class="articles-section_list_item_text">
                 <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
                 <div class="articles-section_list_item_text_p"><%= article.summary %></div>
-                <div class="articles-section_list_item_text_detail"><%= article.date.strftime('%e de %b de %Y') %> - <%= article.data.readTime %> min de Leitura</div>
+                <div class="articles-section_list_item_text_detail">
+                  <%= article.date.strftime('%e de ') %><span class="month-abreviation"><%= article.date.strftime('%b') %></span> <%= article.date.strftime(' de %Y') %> - <%= article.data.readTime %> min de Leitura
+                </div> 
               </div>
             </a>
-          <% end %>
+          <% end %> 
         </div>
       </div>
     </div>

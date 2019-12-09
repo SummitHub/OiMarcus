@@ -29,6 +29,7 @@
     </script>
     <link href="images/favicon32.png" rel="shortcut icon" type="image/x-icon">
     <link href="images/favicon256.png" rel="apple-touch-icon">
+    <%= javascript_include_tag "site.js" %>
 
     <!-- Use the title from a page's frontmatter if it has one -->
   </head>
@@ -80,13 +81,13 @@
       <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="80b76d40-1836-bf15-8b11-6f182b134492" class="header_navbar w-nav">
         <div class="container">
           <div class="header_navbar_content">
-            <a href="#" class="header_navbar_brand w-nav-brand"><img src="/images/logo-marcus-rossi.svg" width="45" alt=""></a>
+            <a href="/" class="header_navbar_brand w-nav-brand"><img src="/images/logo-marcus-rossi.svg" width="45" alt=""></a>
             <div class="header_navbar_actions">
               <div class="header_navbar_actions-bundle">
                 <a href="https://www.instagram.com/marcus_rossi/" target="_blank" class="header_navbar_menu_small_item black-hover"><i class="fa fa-instagram black-hover"></i></a>
                 <a href="https://www.linkedin.com/in/mvrossi/" target="_blank" class="header_navbar_menu_small_item black-hover"><i class="fa fa-linkedin black-hover"></i></a>
               </div>
-              <a href="#" data-w-id="ef08fb24-5b10-9573-07f0-b66728a962f5" class="header_navbar_menu_item w-nav-link">Agende uma palestra</a>
+              <a href="#" data-w-id="bdaf7ab4-c6c1-edae-3042-95eba3a4d19a" class="header_navbar_menu_item w-nav-link">Agende uma palestra</a>
             </div>
           </div>
         </div>
@@ -94,13 +95,13 @@
       <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="094e187b-05b2-7752-8583-f19bc35000b7" style="-webkit-transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="fixed_navbar w-nav">
         <div class="container">
           <div class="header_navbar_content">
-            <a href="#" class="header_navbar_brand w-nav-brand"><img src="/images/logo-marcus-rossi.svg" width="45" alt=""></a>
+            <a href="/" class="header_navbar_brand w-nav-brand"><img src="/images/logo-marcus-rossi.svg" width="45" alt=""></a>
             <div class="header_navbar_actions">
               <div class="header_navbar_actions-bundle">
                 <a href="https://www.instagram.com/marcus_rossi/" target="_blank" class="header_navbar_menu_small_item black-hover"><i class="fa fa-instagram black-hover"></i></a>
                 <a href="https://www.linkedin.com/in/mvrossi/" target="_blank" class="header_navbar_menu_small_item black-hover"><i class="fa fa-linkedin black-hover"></i></a>
               </div>
-              <a href="#" data-w-id="ef08fb24-5b10-9573-07f0-b66728a962f5" class="header_navbar_menu_item w-nav-link">Agende uma palestra</a>
+              <a href="#" data-w-id="bdaf7ab4-c6c1-edae-3042-95eba3a4d19a" class="header_navbar_menu_item w-nav-link">Agende uma palestra</a>
             </div>
           </div>
         </div>
@@ -113,13 +114,24 @@
           <div class="newsletter-section_content">
             <h2 class="about-section_h2 newsletter-section_h2">Quer receber novidades?<br><span class="white">Assine nossa newsletter</span></h2>
             <div class="newsletter-section_content_form-block w-form">
-              <form id="email-form" name="email-form" data-name="Email Form" class="newsletter-section_content_form"><input type="text" class="newsletter-section_content_form-input w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Digite aqui seu e-mail" id="email-2" required=""><a href="#" class="newsletter-link">Assinar newsletter</a></form>
+
+              <form id="email-form" name="email-form" data-name="Email Form" class="newsletter-section_content_form">
+
+                <input type="text" class="newsletter-section_content_form-input w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Digite aqui seu e-mail" id="email-2" required="">
+
+                <a href="#" class="newsletter-link">Assinar newsletter</a>
+                
+              </form>
+
               <div class="w-form-done">
                 <div>Thank you! Your submission has been received!</div>
               </div>
+
               <div class="w-form-fail">
                 <div>Oops! Something went wrong while submitting the form.</div>
               </div>
+
+
             </div>
           </div>
         </div>
@@ -128,6 +140,11 @@
         <div class="footer_text">Todos os direitos reservados - Summit Hub - 2019</div>
       </footer>
     </div>
+    <script> 
+      Array.from(document.getElementsByClassName("month-abreviation")).forEach((element) => {
+        element.textContent = monthsTranslation[element.textContent]
+      });
+    </script>  
     <%= javascript_include_tag "jquery-3.4.1.min.js" %>
     <%= javascript_include_tag "marcus-rossi.js" %>
     <%= javascript_include_tag "dinamize.js" %>

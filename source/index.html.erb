@@ -70,28 +70,32 @@ data_page: 5d10e8c6c661d2c704118c20
   <div class="articles-section_list">
   
     <% blog.articles[0...1].each do |article| %>
+
       <a href="<%= article.url %>" class="articles-section_list_item highlight w-inline-block">
-      <div style="background-image: url(..<%= article.data.mainImage %>);" class="articles-section_list_item_photo highlight-photo"></div>
-      <div class="articles-section_list_item_text highlight-text">
-      <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
-      <div class="articles-section_list_item_text_p"><%= article.summary %></div>
-      <div class="articles-section_list_item_text_detail"><%= article.date.strftime('%e de %b de %Y') %> - <%= article.data.readTime %> min de Leitura</div>
-      </div>
+        <div style="background-image: url(..<%= article.data.mainImage %>);" class="articles-section_list_item_photo highlight-photo"></div>
+        <div class="articles-section_list_item_text highlight-text">
+          <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
+          <div class="articles-section_list_item_text_p"><%= article.summary %></div>
+          <div class="articles-section_list_item_text_detail">
+            <%= article.date.strftime('%e de ') %><span class="month-abreviation"><%= article.date.strftime('%b') %></span> <%= article.date.strftime(' de %Y') %> - <%= article.data.readTime %> min de Leitura
+          </div>
+
+        </div>
       </a>
-      
     <% end %>
 
     <% blog.articles[1...3].each do |article| %>
       <a href="<%= article.url %>" class="articles-section_list_item w-inline-block">
         <div style="background-image: url(..<%= article.data.mainImage %>);" class="articles-section_list_item_photo"></div>
         <div class="articles-section_list_item_text">
-        <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
+        <h3 class="articles-section_list_item _text_h3"><%= article.title %></h3>
         <div class="articles-section_list_item_text_p"><%= article.summary %></div>
-        <div class="articles-section_list_item_text_detail"><%= article.date.strftime('%e de %b de %Y') %> - <%= article.data.readTime %> min de Leitura</div>
+        <div class="articles-section_list_item_text_detail">
+          <%= article.date.strftime('%e de ') %><span class="month-abreviation"><%= article.date.strftime('%b') %></span> <%= article.date.strftime(' de %Y') %> - <%= article.data.readTime %> min de Leitura
+        </div>            
         </div>
-      </a>
+      </a>  
     <% end %>
-
     <div class="articles-section_link-box"><a href="/blog" class="hero-section_content_right-box_link">Ver todos os artigos</a></div>
   </div>
 </div>
