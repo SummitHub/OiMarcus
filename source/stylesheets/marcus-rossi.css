@@ -479,7 +479,7 @@ a:hover {
 }
 
 .contact-modal {
-  position: fixed;
+  position: absolute;
   left: 0%;
   top: 0%;
   right: auto;
@@ -497,6 +497,7 @@ a:hover {
   -ms-flex-align: center;
   align-items: center;
   background-color: rgba(39, 39, 39, 0.95);
+  overflow-y: auto;
 }
 
 .contact-modal_content {
@@ -1430,6 +1431,7 @@ a:hover {
   .contact-modal_content {
     width: 85%;
     margin-top: 110px;
+    margin-bottom: 500px;
   }
   .contact-modal_content_form-block_form_row {
     -webkit-box-orient: vertical;
