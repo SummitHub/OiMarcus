@@ -457,7 +457,7 @@ a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 80px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1082,7 +1082,7 @@ a:hover {
 }
 
 .about-section_h2.newsletter-section_h2 {
-  margin-bottom: 8px;
+  margin-bottom: 60px;
   color: #a5a5a5;
   font-size: 34px;
   font-weight: 700;
@@ -1146,6 +1146,16 @@ a:hover {
 
 .newsletter-link {
   color: #fff;
+  background-color: transparent;
+  border: none;
+  transition: all 250ms ease;
+  font-family: Gilroy, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .newsletter-link:hover {

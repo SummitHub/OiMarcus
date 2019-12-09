@@ -37,7 +37,7 @@
 
     <div data-w-id="a22e573f-ee55-ef42-d0fd-cfc45ac2b40a" style="opacity:0;display:none" class="contact-modal">
     <div data-w-id="460dca38-b641-558c-cc2c-e0e8e0ba994b" style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0, 0, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="contact-modal_content">
-      <div class="contact-modal_content_form-block w-form">
+      <div class="contact-modal_content_form-block talk-block w-form">
         <form id="email-form" name="email-form" data-name="Email Form" class="contact-modal_content_form-block_form" onsubmit="return dinForms.ValidateForm(this)" action="https://receiver.emkt.dinamize.com/in/317591/9/e99c7/0" target="DinamizeIframeFormIntegration">
           <input type="hidden" name="update_mode" value="AS"/>
           <input type="hidden" name="form-code" value="3"/>
@@ -46,6 +46,7 @@
           <input type="hidden" name="text-error" value=""/>
           <input type="hidden" name="text-alert" value=""/>
           <input type="hidden" name="email-alert" value="on">
+          <input type="hidden" name="cmp4" value="Palestra-Marcus-Site"/>
           <input type="hidden" name="email-alert-code" value="8">
           <input type="hidden" name="phase-change" value="off"/>
           <h2 class="contact-modal_content_h2">Vamos conversar?</h2>
@@ -113,25 +114,20 @@
         <div class="container">
           <div class="newsletter-section_content">
             <h2 class="about-section_h2 newsletter-section_h2">Quer receber novidades?<br><span class="white">Assine nossa newsletter</span></h2>
-            <div class="newsletter-section_content_form-block w-form">
-
-              <form id="email-form" name="email-form" data-name="Email Form" class="newsletter-section_content_form">
-
-                <input type="text" class="newsletter-section_content_form-input w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Digite aqui seu e-mail" id="email-2" required="">
-
-                <a href="#" class="newsletter-link">Assinar newsletter</a>
-                
-              </form>
-
-              <div class="w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-              </div>
-
-              <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
-              </div>
-
-
+            <div class="newsletter-section_content_form-block w-form">        
+              <form version="2.0" class="newsletter-section_content_form formIntegration formIntegration2 style1" accept-charset="UTF-8" method="post" onsubmit="return dinForms.ValidateForm(this)" action="https://receiver.emkt.dinamize.com/in/317591/9/e99c7/0" target="DinamizeIframeFormIntegration">
+                <input type="hidden" name="update_mode" value="AS"/>
+                <input type="hidden" name="form-code" value="4"/>
+                <input type="hidden" name="isMsg" value="true"/>
+		            <input type="hidden" name="text-confirmation" value="U2V1IGUtbWFpbCBmb2kgY2FkYXN0cmFkbyBjb20gc3VjZXNzbyE="/>
+                <input type="hidden" name="text-error" value=""/>
+                <input type="hidden" name="text-alert" value=""/>
+                <input type="hidden" name="cmp4" value="News-Marcus-Site"/>
+                <input type="hidden" name="phase-change" value="off"/>
+                <input type="text" name="cmp1"  placeholder="Digite aqui seu e-mail" format=""  class="newsletter-section_content_form-input footer_newsletter_form-block w-input type_EMAIL field-required " maxlength="80" />
+                <input type="text" name="cmp2"  placeholder="Digite aqui seu nome" format=""  class="newsletter-section_content_form-input footer_newsletter_form-block w-input type_VC field-required " maxlength="80" />
+                <input type="submit" value="Assinar newsletter" original-value="Assinar newsletter" id="newsletter-form-button" class="newsletter-link footer_newsletter_form-block dinSubmit" />              
+		          </form>
             </div>
           </div>
         </div>
@@ -144,9 +140,43 @@
       Array.from(document.getElementsByClassName("month-abreviation")).forEach((element) => {
         element.textContent = monthsTranslation[element.textContent]
       });
+
+           
+    function formEndAnimation(formMarker) {
+      switch(formMarker){
+        case 'News-Marcus-Site': newsletterFormEndAnimation();
+          break;
+        case 'Palestra-Marcus-Site': TalkFormEndAnimation();
+          break;
+      }
+    }
+
+    function newsletterFormEndAnimation() {
+      $('#newsletter-form-button').val('Pronto!')
+      $('.footer_newsletter_form-block').css('opacity', '0.5')
+      if ($('#newsletter-form-button').val() == 'Pronto!') {
+        setTimeout(function () {
+          $('.footer_newsletter_form-block').css('opacity', '1')
+          $('#newsletter-form-button').val('Assinar newsletter')
+        }, 2000);
+      }
+    }
+
+    function TalkFormEndAnimation() {
+      $('#submit-form-button').val('Pronto!')
+      $('.talk-block').css('opacity', '0.5')
+      if ($('#submit-form-button').val() == 'Pronto!') {
+        setTimeout(function () {
+          $('.talk-block').css('opacity', '1')
+          $('#submit-form-button').val('Enviar mensagem')
+        }, 2000);
+      }
+    }
+
+
     </script>  
     <%= javascript_include_tag "jquery-3.4.1.min.js" %>
     <%= javascript_include_tag "marcus-rossi.js" %>
-    <%= javascript_include_tag "dinamize.js" %>
+    <%= javascript_include_tag "dinamize-form.js" %>
   </body>
 </html>
