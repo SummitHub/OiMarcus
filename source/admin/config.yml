@@ -14,7 +14,7 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{title}}'
     fields:
       - {label: Title, name: title, widget: string}
-      - {label: Read Time, name: readTime, widget: number}
+      - {label: Read Time (minutes), name: readTime, widget: number}
       - {label: Image, name: mainImage, widget: image}
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Body, name: body, widget: markdown}
