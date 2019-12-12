@@ -10,7 +10,7 @@ title: <%= current_page.data.title %> - Marcus Rossi
         </div>
       
       </div>
-      <div class="article-page_header_photo" style="  background-image: url('..<%= current_page.data.mainImage %>');"></div>
+      <div class="article-page_header_photo" style="  background-image: url('<%= current_page.data.mainImage %>');"></div>
     </div>
     <div class="article-page_content">
       <div class="container">
@@ -23,7 +23,7 @@ title: <%= current_page.data.title %> - Marcus Rossi
         <div class="articles-section_list">
           <% blog.articles[0...1].each do |article| %>
             <a href="<%= article.url %>" class="articles-section_list_item highlight w-inline-block">
-              <div style="background-image: url(..<%= article.data.mainImage %>);" class="articles-section_list_item_photo highlight-photo"></div>
+              <div style="background-image: url(<%= article.data.mainImage %>);" class="articles-section_list_item_photo highlight-photo"></div>
               <div class="articles-section_list_item_text highlight-text">
                 <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
                 <div class="articles-section_list_item_text_p"><%= article.summary %></div>
@@ -35,7 +35,7 @@ title: <%= current_page.data.title %> - Marcus Rossi
           <% end %>
           <% blog.articles[1...].each do |article| %>
             <a href="<%= article.url %>" class="articles-section_list_item w-inline-block">
-              <div style="background-image: url(..<%= article.data.mainImage %>);" class="articles-section_list_item_photo"></div>
+              <div style="background-image: url(<%= article.data.mainImage %>);" class="articles-section_list_item_photo"></div>
               <div class="articles-section_list_item_text">
                 <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
                 <div class="articles-section_list_item_text_p"><%= article.summary %></div>

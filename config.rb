@@ -8,11 +8,14 @@ end
 activate :blog do | blog |
   blog.permalink = "blog/{title}.html"
   blog.sources = "posts/{year}-{month}-{day}-{title}.html"
-  blog.paginate = true
   blog.layout = "blog-layout"
+  blog.paginate = true
+  blog.page_link = "pagina{num}"
+  blog.per_page = 15
 end
 
 activate :pry
+activate :directory_indexes
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
