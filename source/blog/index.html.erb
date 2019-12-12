@@ -7,9 +7,11 @@ data_page: 5da4a577fe28e783c868703f
   <div class="container">
     <h2 class="call-section_title">Confira todos os<br><span class="dark-text">melhores artigos</span></h2>
     <div class="articles-section_list">
-      <% blog.articles[0...1].each do |article| %>
+
+
+      <% page_articles[0...1].each do |article| %>
         <a href="<%= article.url %>" class="articles-section_list_item highlight w-inline-block">
-          <div style="background-image: url(..<%= article.data.mainImage %>);" class="articles-section_list_item_photo highlight-photo"></div>
+          <div style="background-image: url(<%= article.data.mainImage %>);" class="articles-section_list_item_photo highlight-photo"></div>
           <div class="articles-section_list_item_text highlight-text">
             <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
             <div class="articles-section_list_item_text_p"><%= article.summary %></div>
@@ -19,9 +21,10 @@ data_page: 5da4a577fe28e783c868703f
           </div>
         </a>
       <% end %>
-      <% blog.articles[1...].each do |article| %>
+
+      <% page_articles[1...].each do |article| %>
         <a href="<%= article.url %>" class="articles-section_list_item w-inline-block">
-          <div style="background-image: url(..<%= article.data.mainImage %>);" class="articles-section_list_item_photo"></div>
+          <div style="background-image: url(<%= article.data.mainImage %>);" class="articles-section_list_item_photo"></div>
           <div class="articles-section_list_item_text">
             <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
             <div class="articles-section_list_item_text_p"><%= article.summary %></div>
@@ -31,6 +34,15 @@ data_page: 5da4a577fe28e783c868703f
           </div>
         </a>
       <% end %> 
+
+      <div class="page_actions">
+          <% if paginate && num_pages > 1 && prev_page %><p class="previous"><%= link_to 'Página Anterior', prev_page %></p>
+          <% else %><p class="previous"></p>
+          <% end %>
+          <% if paginate && next_page %><p class="next"><%= link_to 'Próxima Página', next_page %></p>
+          <% else %><p class="next"></p>
+          <% end %>
+      </div>
     </div>
   </div>
 </div>

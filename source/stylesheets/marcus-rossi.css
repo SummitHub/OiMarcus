@@ -1216,6 +1216,11 @@ a:hover {
   text-align: center;
 }
 
+.page_actions {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 991px) {
   .hero-section {
     min-height: 750px;

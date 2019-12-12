@@ -11,7 +11,7 @@ activate :blog do | blog |
   blog.layout = "blog-layout"
   blog.paginate = true
   blog.page_link = "pagina{num}"
-  blog.per_page = 15
+  blog.per_page = 10
 end
 
 activate :pry
