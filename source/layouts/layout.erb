@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= current_page.data.title || "Marcus Rossi" %></title>
 
-    <meta content="<% if defined? current_page.summary %><%= current_page.summary[3...55] + "..." %><% else %>CEO e Co-Fundador da Summit Hub, empresa dona de marcas como Gramado Summit, Start Zero e Summit Talks. Em 2015 recebeu o reconhecimento como um dos 25 Inovadores e Empreendedores do ano, em levantamento realizado pela Panrotas.<% end %>" name="description">
-    <meta content="<%= current_page.data.title || "Marcus Rossi" %>" property="og:title">
-    <meta content="<% if defined? current_page.summary %><%= current_page.summary[3...55] + "..." %><% else %>CEO e Co-Fundador da Summit Hub, empresa dona de marcas como Gramado Summit, Start Zero e Summit Talks. Em 2015 recebeu o reconhecimento como um dos 25 Inovadores e Empreendedores do ano, em levantamento realizado pela Panrotas.<% end %>" property="og:description">
+    <meta content="<% if defined? current_page.summary %><%= current_page.summary[3...150] + "..." %><% else %>CEO e Co-Fundador da Summit Hub, empresa dona de marcas como Gramado Summit, Start Zero e Summit Talks. Em 2015 recebeu o reconhecimento como um dos 25 Inovadores e Empreendedores do ano, em levantamento realizado pela Panrotas.<% end %>" name="description">
+    <meta content="<%= current_page.data.title[0...55] || "Marcus Rossi" %>" property="og:title">
+    <meta content="<% if defined? current_page.summary %><%= current_page.summary[3...150] + "..." %><% else %>CEO e Co-Fundador da Summit Hub, empresa dona de marcas como Gramado Summit, Start Zero e Summit Talks. Em 2015 recebeu o reconhecimento como um dos 25 Inovadores e Empreendedores do ano, em levantamento realizado pela Panrotas.<% end %>" property="og:description">
     <meta content="<%= current_page.data.mainImage || "https://i.ibb.co/28XPzSw/ogImage.png" %>" property="og:image">
     <meta content="summary" name="twitter:card">
     <meta content="<%= current_page.data.mainImage || "https://i.ibb.co/TrkDdLM/ogImage.png" %>" name="twitter:image:src" />
-    <meta content="<%= current_page.data.title || "Marcus Rossi" %>" name='twitter:text:title' />
+    <meta content="<%= current_page.data.title[0...55] || "Marcus Rossi" %>" name='twitter:text:title' />
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
     <%= stylesheet_link_tag "components.css" %>
