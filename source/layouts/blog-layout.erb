@@ -33,7 +33,7 @@ title: <%= current_page.data.title %> - Marcus Rossi
               </div>
             </a>
           <% end %>
-          <% blog.articles[1...].each do |article| %>
+          <% blog.articles[1...6].each do |article| %>
             <a href="<%= article.url %>" class="articles-section_list_item w-inline-block">
               <div style="background-image: url(<%= article.data.mainImage %>);" class="articles-section_list_item_photo"></div>
               <div class="articles-section_list_item_text">
@@ -45,6 +45,7 @@ title: <%= current_page.data.title %> - Marcus Rossi
               </div>
             </a>
           <% end %> 
+          <div class="articles-section_link-box"><a href="/blog" class="hero-section_content_right-box_link">Ver todos os artigos</a></div>
         </div>
       </div>
     </div>

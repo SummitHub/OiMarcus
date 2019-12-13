@@ -39,7 +39,7 @@ data_page: 5d10e8c6c661d2c704118c20
           </div>
           <div class="about-section_content_right-box_list_item">
             <div class="about-section_content_right-box_list_item_number">20<span class="number-detail">mi</span></div>
-            <div class="about-section_content_right-box_list_item_description">Movimentou no último ano em Gramado</div>
+            <div class="about-section_content_right-box_list_item_description">Movimentados no último ano em Gramado</div>
           </div>
           <div class="about-section_content_right-box_list_item">
             <div class="about-section_content_right-box_list_item_number">130</div>
@@ -88,7 +88,7 @@ data_page: 5d10e8c6c661d2c704118c20
       <a href="<%= article.url %>" class="articles-section_list_item w-inline-block">
         <div style="background-image: url(..<%= article.data.mainImage %>);" class="articles-section_list_item_photo"></div>
         <div class="articles-section_list_item_text">
-        <h3 class="articles-section_list_item _text_h3"><%= article.title %></h3>
+        <h3 class="articles-section_list_item_text_h3"><%= article.title %></h3>
         <div class="articles-section_list_item_text_p"><%= article.summary %></div>
         <div class="articles-section_list_item_text_detail">
           <%= article.date.strftime('%e de ') %><span class="month-abreviation"><%= article.date.strftime('%b') %></span> <%= article.date.strftime(' de %Y') %> - <%= article.data.readTime %> min de Leitura
