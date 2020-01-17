@@ -1,7 +1,7 @@
 ---
 title: Coloque o consumidor no centro do seu modelo de negócios
 readTime: 2
-mainImage: /images/uploads/photo-1557804506-669a67965ba0.jpeg
+mainImage: /images/uploads/photo-1531539134685-27d854339120.jpeg
 date: 2020-01-17T18:18:02.430Z
 ---
 Ao idealizarmos um projeto, imaginamos um modelo de negócio perfeito. Com ele, suprimos nossas necessidades e idealizamos um público alvo, passamos horas pensando na forma com que esse esboço impactará a nossa vida. Em seguida, investimos todo o nosso esforço em divulgações e não lembramos do principal impactado pelas nossas escolhas: o cliente final.
