@@ -1,7 +1,7 @@
 ---
 title: É hora de entendermos a diferença entre preço e valor
 readTime: -3
-mainImage: /images/uploads/48495846712_4123ba7807_o.jpg
+mainImage: /images/uploads/48495805797_efd9cc5dd6_o.jpg
 date: 2020-01-29T18:34:22.815Z
 ---
 Gostaria de iniciar esse artigo te fazendo um questionamento. Quantas vezes você não apostou em um produto, pelo **valor** que ele agregava? Acabou optando por algo de menor valor e, no final de tudo, se arrependeu da escolha e repensou muito na hora de investir seu dinheiro em algum produto ou serviço? Provavelmente centenas de vezes.
