@@ -90,7 +90,7 @@
                 <a href="https://www.instagram.com/marcus_rossi/" target="_blank" class="header_navbar_menu_small_item black-hover"><i class="fa fa-instagram black-hover"></i></a>
                 <a href="https://www.linkedin.com/in/mvrossi/" target="_blank" class="header_navbar_menu_small_item black-hover"><i class="fa fa-linkedin black-hover"></i></a>
               </div>
-              <a href="#" data-w-id="bdaf7ab4-c6c1-edae-3042-95eba3a4d19a" class="header_navbar_menu_item w-nav-link">Agende uma palestra</a>
+              <a id="form-button" href="#" data-w-id="bdaf7ab4-c6c1-edae-3042-95eba3a4d19a" class="header_navbar_menu_item w-nav-link">Agende uma palestra</a>
             </div>
           </div>
         </div>
@@ -139,44 +139,50 @@
       </footer>
     </div>
 
-    <script> 
+    <script>
+
+      window.onload = function () {
+        var url_array = document.URL.split('#') 
+        if (url_array[url_array.length-1] == "form") {
+          $('#form-button').trigger("click")
+        }
+      }
+
       Array.from(document.getElementsByClassName("month-abreviation")).forEach((element) => {
         element.textContent = monthsTranslation[element.textContent]
       });
-
            
-    function formEndAnimation(formMarker) {
-      switch(formMarker){
-        case 'News-Marcus-Site': newsletterFormEndAnimation();
-          break;
-        case 'Palestra-Marcus-Site': TalkFormEndAnimation();
-          break;
+      function formEndAnimation(formMarker) {
+        switch(formMarker){
+          case 'News-Marcus-Site': newsletterFormEndAnimation();
+            break;
+          case 'Palestra-Marcus-Site': TalkFormEndAnimation();
+            break;
+        }
       }
-    }
 
-    function newsletterFormEndAnimation() {
-      $('#newsletter-form-button').val('Pronto!')
-      $('.footer_newsletter_form-block').css('opacity', '0.5')
-      if ($('#newsletter-form-button').val() == 'Pronto!') {
-        setTimeout(function () {
-          $('.footer_newsletter_form-block').css('opacity', '1')
-          $('#newsletter-form-button').val('Assinar newsletter')
-        }, 2000);
+      function newsletterFormEndAnimation() {
+        $('#newsletter-form-button').val('Pronto!')
+        $('.footer_newsletter_form-block').css('opacity', '0.5')
+        if ($('#newsletter-form-button').val() == 'Pronto!') {
+          setTimeout(function () {
+            $('.footer_newsletter_form-block').css('opacity', '1')
+            $('#newsletter-form-button').val('Assinar newsletter')
+          }, 2000);
+        }
       }
-    }
 
-    function TalkFormEndAnimation() {
-      $('#submit-form-button').val('Pronto!')
-      $('.talk-block').css('opacity', '0.5')
-      if ($('#submit-form-button').val() == 'Pronto!') {
-        setTimeout(function () {
-          $('.talk-block').css('opacity', '1')
-          $('#submit-form-button').val('Enviar mensagem')
-          document.getElementById("close-modal-button").click();
-        }, 2000);
+      function TalkFormEndAnimation() {
+        $('#submit-form-button').val('Pronto!')
+        $('.talk-block').css('opacity', '0.5')
+        if ($('#submit-form-button').val() == 'Pronto!') {
+          setTimeout(function () {
+            $('.talk-block').css('opacity', '1')
+            $('#submit-form-button').val('Enviar mensagem')
+            document.getElementById("close-modal-button").click();
+          }, 2000);
+        }
       }
-    }
-
 
     </script>  
     <%= javascript_include_tag "jquery-3.4.1.min.js" %>
