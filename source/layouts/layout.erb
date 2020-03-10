@@ -90,7 +90,7 @@
                 <a href="https://www.instagram.com/marcus_rossi/" target="_blank" class="header_navbar_menu_small_item black-hover"><i class="fa fa-instagram black-hover"></i></a>
                 <a href="https://www.linkedin.com/in/mvrossi/" target="_blank" class="header_navbar_menu_small_item black-hover"><i class="fa fa-linkedin black-hover"></i></a>
               </div>
-              <a id="form-button" href="#" data-w-id="bdaf7ab4-c6c1-edae-3042-95eba3a4d19a" class="header_navbar_menu_item w-nav-link">Agende uma palestra</a>
+              <a id="form-button" href="#" data-w-id="bdaf7ab4-c6c1-edae-3042-95eba3a4d19a" class="header_navbar_menu_item w-nav-link"><span>Agende uma palestra</span></a>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@
       window.onload = function () {
         var url_array = document.URL.split('#') 
         if (url_array[url_array.length-1] == "form") {
-          $('#form-button').trigger("click")
+          document.getElementById('form-button').click()
         }
       }
 
