@@ -1,25 +1,178 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="122.98" height="30.221" viewBox="0 0 122.98 30.221">
-  <g id="logo-gramado-summit" opacity="0.234">
-    <g id="Grupo_32" data-name="Grupo 32" transform="translate(108.339 12.863)">
-      <path id="Caminho_11" data-name="Caminho 11" d="M542.4,64.4v4.834h6.292L542.4,75.546v3.515h3.516l6.292-6.312v6.312h4.834V72.529L548.912,64.4Z" transform="translate(-542.4 -64.4)" fill="#1a1f3e"/>
-      <path id="Caminho_12" data-name="Caminho 12" d="M585.9,64.4l5.952,5.972V64.4Z" transform="translate(-577.211 -64.4)" fill="#1a1f3e"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="122.98"
+   height="30.221"
+   viewBox="0 0 122.98 30.221"
+   version="1.1"
+   id="svg21"
+   sodipodi:docname="logo-gramado-summit.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata27">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs25" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1846"
+     inkscape:window-height="1057"
+     id="namedview23"
+     showgrid="false"
+     inkscape:zoom="12.574459"
+     inkscape:cx="20.78994"
+     inkscape:cy="15.1105"
+     inkscape:window-x="66"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg21" />
+  <g
+     id="logo-gramado-summit"
+     style="opacity:1">
+    <g
+       id="Grupo_32"
+       data-name="Grupo 32"
+       transform="translate(108.339,12.863)"
+       inkscape:label="Grupo_32"
+       style="fill:#ff3e88;fill-opacity:1">
+      <path
+         id="Caminho_11"
+         data-name="Caminho 11"
+         d="m 542.4,64.4 v 4.834 h 6.292 l -6.292,6.312 v 3.515 h 3.516 l 6.292,-6.312 v 6.312 h 4.834 v -6.532 l -8.13,-8.129 z"
+         transform="translate(-542.4,-64.4)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
+      <path
+         id="Caminho_12"
+         data-name="Caminho 12"
+         d="m 585.9,64.4 5.952,5.972 V 64.4 Z"
+         transform="translate(-577.211,-64.4)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
     </g>
-    <g id="Grupo_33" data-name="Grupo 33" transform="translate(0 5.293)">
-      <path id="Caminho_13" data-name="Caminho 13" d="M14.3,74.3c0,3.895-3.376,5.533-7.031,5.533-3.376,0-5.952-1.278-7.271-4.015l4.394-2.5a2.78,2.78,0,0,0,2.876,2c1.218,0,1.818-.38,1.818-1.039,0-1.858-8.309-.879-8.309-6.731C.779,63.858,3.895,62,7.41,62A7.4,7.4,0,0,1,14,65.615L9.667,67.952A2.459,2.459,0,0,0,7.41,66.474c-.879,0-1.418.34-1.418.939C5.972,69.33,14.3,68.052,14.3,74.3Z" transform="translate(0 -54.909)" fill="#1a1f3e"/>
-      <path id="Caminho_14" data-name="Caminho 14" d="M90.819,64.4V81.3H85.746V79.7a5.757,5.757,0,0,1-4.834,2.057c-3.416,0-6.312-2.437-6.312-6.991V64.4h5.073v9.627A2.786,2.786,0,0,0,82.61,77.1c1.858,0,3.136-1.079,3.136-3.475V64.4Z" transform="translate(-59.699 -56.83)" fill="#1a1f3e"/>
-      <path id="Caminho_15" data-name="Caminho 15" d="M191.347,68.991V79.377h-5.073V69.43c0-1.7-.819-2.776-2.437-2.776-1.7,0-2.637,1.178-2.637,3.176v9.548h-5.073V69.43c0-1.7-.819-2.776-2.437-2.776-1.7,0-2.637,1.178-2.637,3.176v9.548H166v-16.9h5.073v1.558A5.15,5.15,0,0,1,175.588,62a5.059,5.059,0,0,1,4.434,2.237A5.534,5.534,0,0,1,184.915,62C188.81,62,191.347,64.776,191.347,68.991Z" transform="translate(-132.843 -54.909)" fill="#1a1f3e"/>
-      <path id="Caminho_16" data-name="Caminho 16" d="M327.067,68.991V79.377h-5.073V69.43c0-1.7-.819-2.776-2.437-2.776-1.7,0-2.637,1.178-2.637,3.176v9.548h-5.073V69.43c0-1.7-.819-2.776-2.437-2.776-1.7,0-2.637,1.178-2.637,3.176v9.548H301.7v-16.9h5.073v1.558A5.165,5.165,0,0,1,311.308,62a5.059,5.059,0,0,1,4.434,2.237A5.534,5.534,0,0,1,320.635,62C324.55,62,327.067,64.776,327.067,68.991Z" transform="translate(-241.438 -54.909)" fill="#1a1f3e"/>
-      <path id="Caminho_17" data-name="Caminho 17" d="M435.2,29.536a3.036,3.036,0,1,1,3.036,3.036A3.061,3.061,0,0,1,435.2,29.536Zm.5,4.534h5.073v16.9H435.7Z" transform="translate(-348.273 -26.5)" fill="#1a1f3e"/>
-      <path id="Caminho_18" data-name="Caminho 18" d="M474.27,50.288V56.26c0,1.458,1.258,1.6,3.476,1.458v4.594c-6.632.679-8.549-1.318-8.549-6.052V50.288h-2.7V45.434h2.7V40.72l5.073-.02v4.734h3.476v4.874H474.27Z" transform="translate(-373.321 -37.864)" fill="#1a1f3e"/>
+    <g
+       id="Grupo_33"
+       data-name="Grupo 33"
+       transform="translate(0,5.293)"
+       style="fill:#ff3e88;fill-opacity:1">
+      <path
+         id="Caminho_13"
+         data-name="Caminho 13"
+         d="m 14.3,74.3 c 0,3.895 -3.376,5.533 -7.031,5.533 -3.376,0 -5.952,-1.278 -7.271,-4.015 l 4.394,-2.5 a 2.78,2.78 0 0 0 2.876,2 c 1.218,0 1.818,-0.38 1.818,-1.039 C 9.086,72.421 0.777,73.4 0.777,67.548 0.779,63.858 3.895,62 7.41,62 A 7.4,7.4 0 0 1 14,65.615 L 9.667,67.952 A 2.459,2.459 0 0 0 7.41,66.474 c -0.879,0 -1.418,0.34 -1.418,0.939 -0.02,1.917 8.308,0.639 8.308,6.887 z"
+         transform="translate(0,-54.909)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
+      <path
+         id="Caminho_14"
+         data-name="Caminho 14"
+         d="m 90.819,64.4 v 16.9 h -5.073 v -1.6 a 5.757,5.757 0 0 1 -4.834,2.057 C 77.496,81.757 74.6,79.32 74.6,74.766 V 64.4 h 5.073 v 9.627 A 2.786,2.786 0 0 0 82.61,77.1 c 1.858,0 3.136,-1.079 3.136,-3.475 V 64.4 Z"
+         transform="translate(-59.699,-56.83)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
+      <path
+         id="Caminho_15"
+         data-name="Caminho 15"
+         d="m 191.347,68.991 v 10.386 h -5.073 V 69.43 c 0,-1.7 -0.819,-2.776 -2.437,-2.776 -1.7,0 -2.637,1.178 -2.637,3.176 v 9.548 h -5.073 V 69.43 c 0,-1.7 -0.819,-2.776 -2.437,-2.776 -1.7,0 -2.637,1.178 -2.637,3.176 v 9.548 H 166 v -16.9 h 5.073 v 1.558 A 5.15,5.15 0 0 1 175.588,62 5.059,5.059 0 0 1 180.022,64.237 5.534,5.534 0 0 1 184.915,62 c 3.895,0 6.432,2.776 6.432,6.991 z"
+         transform="translate(-132.843,-54.909)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
+      <path
+         id="Caminho_16"
+         data-name="Caminho 16"
+         d="m 327.067,68.991 v 10.386 h -5.073 V 69.43 c 0,-1.7 -0.819,-2.776 -2.437,-2.776 -1.7,0 -2.637,1.178 -2.637,3.176 v 9.548 h -5.073 V 69.43 c 0,-1.7 -0.819,-2.776 -2.437,-2.776 -1.7,0 -2.637,1.178 -2.637,3.176 v 9.548 H 301.7 v -16.9 h 5.073 v 1.558 A 5.165,5.165 0 0 1 311.308,62 5.059,5.059 0 0 1 315.742,64.237 5.534,5.534 0 0 1 320.635,62 c 3.915,0 6.432,2.776 6.432,6.991 z"
+         transform="translate(-241.438,-54.909)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
+      <path
+         id="Caminho_17"
+         data-name="Caminho 17"
+         d="m 435.2,29.536 a 3.036,3.036 0 1 1 3.036,3.036 3.061,3.061 0 0 1 -3.036,-3.036 z m 0.5,4.534 h 5.073 v 16.9 H 435.7 Z"
+         transform="translate(-348.273,-26.5)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
+      <path
+         id="Caminho_18"
+         data-name="Caminho 18"
+         d="m 474.27,50.288 v 5.972 c 0,1.458 1.258,1.6 3.476,1.458 v 4.594 c -6.632,0.679 -8.549,-1.318 -8.549,-6.052 v -5.972 h -2.7 v -4.854 h 2.7 V 40.72 l 5.073,-0.02 v 4.734 h 3.476 v 4.874 h -3.476 z"
+         transform="translate(-373.321,-37.864)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
     </g>
-    <g id="Grupo_34" data-name="Grupo 34" transform="translate(28.563)">
-      <path id="Caminho_19" data-name="Caminho 19" d="M151.469,4.954a3.751,3.751,0,0,1-4.055,3.715A4.275,4.275,0,0,1,143,4.334,4.249,4.249,0,0,1,147.354,0a4.146,4.146,0,0,1,3.615,2.037l-.559.34A3.437,3.437,0,0,0,147.354.619a3.627,3.627,0,0,0-3.735,3.715,3.637,3.637,0,0,0,3.775,3.715,3.152,3.152,0,0,0,3.416-2.836h-3.555v-.6h4.215Z" transform="translate(-143 0)" fill="#1a1f3e"/>
-      <path id="Caminho_20" data-name="Caminho 20" d="M195.4,12.3v.579a1.938,1.938,0,0,0-2,2.177v3.336h-.6V12.4h.6v1.178A1.977,1.977,0,0,1,195.4,12.3Z" transform="translate(-182.853 -9.843)" fill="#1a1f3e"/>
-      <path id="Caminho_21" data-name="Caminho 21" d="M214.312,12.14v5.992h-.619V16.774a2.9,2.9,0,0,1-2.577,1.5,3.136,3.136,0,0,1,0-6.272,2.861,2.861,0,0,1,2.577,1.478V12.12h.619Zm-.619,3a2.537,2.537,0,1,0-2.537,2.557A2.507,2.507,0,0,0,213.693,15.136Z" transform="translate(-195.017 -9.603)" fill="#1a1f3e"/>
-      <path id="Caminho_22" data-name="Caminho 22" d="M257.489,14.565v3.8h-.6v-3.8a1.558,1.558,0,0,0-1.6-1.758c-1,0-1.8.679-1.8,2.217V18.38h-.6v-3.8c0-1.139-.619-1.758-1.538-1.758-.979,0-1.858.679-1.858,2.217V18.4h-.6V12.408h.6v1.039a2.1,2.1,0,0,1,1.938-1.158,1.923,1.923,0,0,1,1.878,1.218,2.186,2.186,0,0,1,2-1.218A2.034,2.034,0,0,1,257.489,14.565Z" transform="translate(-227.747 -9.831)" fill="#1a1f3e"/>
-      <path id="Caminho_23" data-name="Caminho 23" d="M304.512,12.14v5.992h-.619V16.774a2.9,2.9,0,0,1-2.577,1.5,3.136,3.136,0,0,1,0-6.272,2.861,2.861,0,0,1,2.577,1.478V12.12h.619Zm-.6,3a2.537,2.537,0,1,0-2.537,2.557A2.507,2.507,0,0,0,303.913,15.136Z" transform="translate(-267.2 -9.603)" fill="#1a1f3e"/>
-      <path id="Caminho_24" data-name="Caminho 24" d="M343.392.62V9.029h-.6v-1.4a2.857,2.857,0,0,1-2.577,1.518A3.1,3.1,0,0,1,337.1,6.013a3.1,3.1,0,0,1,3.116-3.136A2.835,2.835,0,0,1,342.793,4.4V.6h.6Zm-.6,5.393a2.537,2.537,0,1,0-5.073,0,2.537,2.537,0,1,0,5.073,0Z" transform="translate(-298.33 -0.48)" fill="#1a1f3e"/>
-      <path id="Caminho_25" data-name="Caminho 25" d="M375.8,15.136a3.146,3.146,0,1,1,3.156,3.136A3.108,3.108,0,0,1,375.8,15.136Zm5.693,0a2.537,2.537,0,1,0-2.537,2.557A2.507,2.507,0,0,0,381.493,15.136Z" transform="translate(-329.3 -9.603)" fill="#1a1f3e"/>
+    <g
+       id="Grupo_34"
+       data-name="Grupo 34"
+       transform="translate(28.563)"
+       style="fill:#ff3e88;fill-opacity:1">
+      <path
+         id="Caminho_19"
+         data-name="Caminho 19"
+         d="M 151.469,4.954 A 3.751,3.751 0 0 1 147.414,8.669 4.275,4.275 0 0 1 143,4.334 4.249,4.249 0 0 1 147.354,0 a 4.146,4.146 0 0 1 3.615,2.037 l -0.559,0.34 a 3.437,3.437 0 0 0 -3.056,-1.758 3.627,3.627 0 0 0 -3.735,3.715 3.637,3.637 0 0 0 3.775,3.715 3.152,3.152 0 0 0 3.416,-2.836 h -3.555 v -0.6 h 4.215 z"
+         transform="translate(-143)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
+      <path
+         id="Caminho_20"
+         data-name="Caminho 20"
+         d="m 195.4,12.3 v 0.579 a 1.938,1.938 0 0 0 -2,2.177 v 3.336 h -0.6 V 12.4 h 0.6 v 1.178 a 1.977,1.977 0 0 1 2,-1.278 z"
+         transform="translate(-182.853,-9.843)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
+      <path
+         id="Caminho_21"
+         data-name="Caminho 21"
+         d="m 214.312,12.14 v 5.992 h -0.619 v -1.358 a 2.9,2.9 0 0 1 -2.577,1.5 3.136,3.136 0 0 1 0,-6.272 2.861,2.861 0 0 1 2.577,1.478 v -1.36 h 0.619 z m -0.619,3 a 2.537,2.537 0 1 0 -2.537,2.557 2.507,2.507 0 0 0 2.537,-2.561 z"
+         transform="translate(-195.017,-9.603)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
+      <path
+         id="Caminho_22"
+         data-name="Caminho 22"
+         d="m 257.489,14.565 v 3.8 h -0.6 v -3.8 a 1.558,1.558 0 0 0 -1.6,-1.758 c -1,0 -1.8,0.679 -1.8,2.217 v 3.356 h -0.6 v -3.8 c 0,-1.139 -0.619,-1.758 -1.538,-1.758 -0.979,0 -1.858,0.679 -1.858,2.217 V 18.4 h -0.6 v -5.992 h 0.6 v 1.039 a 2.1,2.1 0 0 1 1.938,-1.158 1.923,1.923 0 0 1 1.878,1.218 2.186,2.186 0 0 1 2,-1.218 2.034,2.034 0 0 1 2.18,2.276 z"
+         transform="translate(-227.747,-9.831)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
+      <path
+         id="Caminho_23"
+         data-name="Caminho 23"
+         d="m 304.512,12.14 v 5.992 h -0.619 v -1.358 a 2.9,2.9 0 0 1 -2.577,1.5 3.136,3.136 0 0 1 0,-6.272 2.861,2.861 0 0 1 2.577,1.478 v -1.36 h 0.619 z m -0.6,3 a 2.537,2.537 0 1 0 -2.537,2.557 2.507,2.507 0 0 0 2.538,-2.561 z"
+         transform="translate(-267.2,-9.603)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
+      <path
+         id="Caminho_24"
+         data-name="Caminho 24"
+         d="m 343.392,0.62 v 8.409 h -0.6 v -1.4 A 2.857,2.857 0 0 1 340.215,9.147 3.1,3.1 0 0 1 337.1,6.013 3.1,3.1 0 0 1 340.216,2.877 2.835,2.835 0 0 1 342.793,4.4 V 0.6 h 0.6 z m -0.6,5.393 a 2.537,2.537 0 1 0 -5.073,0 2.537,2.537 0 1 0 5.073,0 z"
+         transform="translate(-298.33,-0.48)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
+      <path
+         id="Caminho_25"
+         data-name="Caminho 25"
+         d="m 375.8,15.136 a 3.146,3.146 0 1 1 3.156,3.136 3.108,3.108 0 0 1 -3.156,-3.136 z m 5.693,0 a 2.537,2.537 0 1 0 -2.537,2.557 2.507,2.507 0 0 0 2.537,-2.557 z"
+         transform="translate(-329.3,-9.603)"
+         inkscape:connector-curvature="0"
+         style="fill:#ff3e88;fill-opacity:1" />
     </g>
   </g>
 </svg>
