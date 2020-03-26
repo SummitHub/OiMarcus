@@ -111,7 +111,31 @@
       </div>
     </header>
     <%= yield %>
+
+
     <div>
+      <div class="newsletter">
+        <div class="container">
+          <div class="newsletter-section_content">
+            <h2 class="about-section_h2 newsletter-section_h2">Quer receber novidades?<br><span class="white">Assine nossa newsletter</span></h2>
+            <div class="newsletter-section_content_form-block w-form">        
+                <form action="https://marcusrossi.us19.list-manage.com/subscribe/post?u=679898733d7cb2fbfd8a6a506&amp;id=25fb30e099" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          
+                  <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Digite aqui seu e-mail" format=""  class="newsletter-section_content_form-input footer_newsletter_form-block w-input required email" maxlength="80" />
+                  <input type="text" name="NAME" id="mce-NAME" placeholder="Digite aqui seu nome" format=""  class="newsletter-section_content_form-input footer_newsletter_form-block w-input type_VC field-required " maxlength="80" />
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_679898733d7cb2fbfd8a6a506_25fb30e099" tabindex="-1" value=""></div>
+                  <div style="display: flex">
+                    <div style="flex: 6">
+                      <div class="response" id="mce-error-response" style="display:none"></div>
+                      <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div style="flex: 4">  
+                    <input type="submit" name="subscribe" value="Assinar newsletter" original-value="Assinar newsletter" id="mc-embedded-subscribe" class="newsletter-link footer_newsletter_form-block button" />              
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="newsletter">
         <div class="container">
           <div class="newsletter-section_content">
@@ -162,12 +186,12 @@
       }
 
       function newsletterFormEndAnimation() {
-        $('#newsletter-form-button').val('Pronto!')
+        $('#mc-embedded-subscribe').val('Pronto!')
         $('.footer_newsletter_form-block').css('opacity', '0.5')
-        if ($('#newsletter-form-button').val() == 'Pronto!') {
+        if ($('#mc-embedded-subscribe').val() == 'Pronto!') {
           setTimeout(function () {
             $('.footer_newsletter_form-block').css('opacity', '1')
-            $('#newsletter-form-button').val('Assinar newsletter')
+            $('#mc-embedded-subscribe').val('Assinar newsletter')
           }, 2000);
         }
       }
@@ -184,7 +208,16 @@
         }
       }
 
+
+
+
+
+
+
+
     </script>  
+    <%= javascript_include_tag "mc-validate.js" %>
+    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
     <%= javascript_include_tag "jquery-3.4.1.min.js" %>
     <%= javascript_include_tag "marcus-rossi.js" %>
     <%= javascript_include_tag "dinamize-form.js" %>
