@@ -1,0 +1,32 @@
+---
+title: Momentos difíceis revelam verdadeiros heróis
+readTime: 3
+mainImage: /images/uploads/photo-1514623073411-bd41f38a3645.jfif
+date: 2020-03-24T12:16:37.475Z
+---
+Nas últimas semanas, fomos impactados de uma forma que jamais havia vivenciei antes. A cada minuto, somos bombardeado de notícias e, a cada atualização de feed, recebemos novas informações sobre um vírus que desestabilizou inúmeros campos de nossas vida: colocou à prova nossa saúde, nossa fragilidade como seres humanos e os nossos negócios.
+
+Em algum momento, tenho certeza que você parou e refletiu: o que será do meu emprego, dos meus estudos e de mim? Será que esses próximos meses serão de extremo limbo e não haverá saída? Bom, de todos os momentos de crise, eu tento tirar sempre algo de positivo. Acredito que o pessimismo é uma das piores chaves para serem ligadas nesse momento.
+
+Particularmente, entendo que crises são muito semelhantes aos desafios que superamos diariamente. É muito confortável estarmos em nossa zona, com todos os negócios de vento em poupa, nossa tabela de crescimento bem estruturada e todo o desenvolvimento do seu negócio em uma escala sem igual. Mas o desequilíbrio e a ruptura transformam ambientes de negócios para novas formas de entender o mercado em que estamos.
+
+Ao idealizarmos a Gramado Summit de 2020, imaginamos em um lema que realmente pudesse mover o nosso time. Com isso, surgiram centenas de ideias, mas o que nos instigou foi simples: “Desafie. Revolucione”. Quem diria que em março do mesmo anos, veríamos que sim, o ano será de bons resultados se nos desafiarmos e revolucionarmos o que estávamos vivendo. Estamos aprendendo que é preciso de desafiar e revolucionar nos 365 dias do ano.
+
+Cases para te inspirar
+
+Esse tipo de situação, é capaz de revelar os empreendedores reais, que encontram em pequenas brechas formas de resinificar o que entendem por economia e seus negócios. Mas, melhor do que eu apenas falar, vou trazer exemplos que mostram que momentos instáveis podem revelar novas formas de enxergarmos as oportunidades.Historicamente, os momentos de crise são onde várias empresas se reinventaram e aderem ideias geniais.
+
+Muitas vezes, para salvar o negócio, é hora de colocar em prática a criatividade e aceitar os riscos. Várias marcas que conhecemos hoje surgiram assim. Irei citar dois cases que, para mim, ajudaram a entender como crises podem reestruturar a forma que pensamos, principalmente. Já deixo também a leitura de um post super legal do catraca livre, de [11 startups que criaram os seus negócios em meio a crise econômica de 2008.](https://catracalivre.com.br/quem-inova/11-startups-de-sucesso-que-nasceram-da-crise-de-2008/)
+
+* **Airbnb:** Acredito que um dos cases mais recentes é o Airbnb. O modelo de negócio foi criado em 2008, quando o mundo se deparou com a [maior crise do sistema financeiro global](https://www.nexojornal.com.br/expresso/2018/09/13/Dez-anos-da-crise-de-2008-colapso-consequ%C3%AAncias-e-li%C3%A7%C3%B5es), quando o banco de investimentos Lehman Brothers declarou falência. Esse episódio colocou em risco todo o mercado capitalista do mundo. Histórias contam que, sem dinheiro para pagar aluguéis, dois amigos tiraram colchões infláveis do armário e resolveram alugar o espaço para pessoas interessadas. Com isso, os fundadores descobriram um novo nicho de mercado, além disso, durante a estruturação do negócio, viram que a maioria dos apartamentos nos Estados Unidos não era alugado pela má divulgação. Com isso, entenderam uma demanda do mercado e trabalharam para supri-la. No início, a intenção era criar um mercado comunitário para pessoas anunciarem e reservarem acomodações em seus próprios imóveis.
+* **Localiza:** Agora, voltaremos para a realidade brasileira. Em 1973, em meio a maior crise de petróleo do país, o empreendedor José Salim Mattar iniciou seu negócio com apenas seis fuscas, na cidade de Belo Horizonte. Salim desafiou todas as perspectivas, em uma época onde o recomendado era não investir em nenhum tipo de automóvel, por conta do aumento expressivo dos combustíveis. Mesmo com todos os indicativos, ele continuou oferecendo seus serviços. Em 1979, na segunda crise de petróleo, a empresa abriu sua primeirafilial de agência de locação de carros em Vitória. Atualmente, a Localiza se destaca como a maior rede de aluguel de carros da América do Sul, com 583 agências e mais de 200 mil carros em seis países: Argentina, Brasil, Colômbia, Equador, Paraguai e Uruguai.
+
+**O que posso fazer neste período?**
+
+O período da quarentena não precisa ser visto como algo negativo. Aproveite o tempo livre que tiver para consumir conteúdos que contribuam para o seu futuro. Comece se preparando para sair da pandemia uma pessoa ainda mais qualificada. Uma possibilidade é o famoso networking. Afinal, você pode trocar ideias sem ser pessoalmente. Quem sabe ensine aos seus amigos as suas principais skills de trabalho e peça que eles te ensinem as deles também. Se conecte com pessoas que você sempre desejou conversar, mas que por falta de tempo, deixou de lado.
+
+Utilize o tempo ocioso para planejar o seu futuro para quando as coisas voltarem ao normal. É uma ótima hora para aprender, fazer cursos online, montar uma agenda de atividades que você pode colocar em prática quando as coisas se acalmarem. Entenda que esse tempo em casa é necessário para se reinventar.
+
+Desde já, junto com a proteção à sua saúde e dos seus, imagine oportunidades. Pense em formas de ajudar pessoas e mostrar naquilo que você seja bom. Toda janela que se abre é uma chance para reforçarmos aspectos em nós que estão escondidos. Você é bom em planejamento? Que tal ajudar aquele pequeno empreendedor a como se organizar nas próximas semanas? Você entende muito sobre redes sociais? Pode então, pensar em uma consultoria para marcas da sua região. É momento de fortalecermos laços, mesmo com a distância.
+
+Aprenda que a internet é um mundo de oportunidade e informações, basta que nós, tenhamos o discernimento de manter o equilíbrio. Neste momento, estarmos conectados com boas notícias e de confiança é essencial. O mesmo se aplica aos conteúdos que podemos consumir nesse período. Inspire-se em empresas que você já admira e busque entender como esse momento está moldando a forma com que elas estão entendendo o mundo.
