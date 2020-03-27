@@ -4460,7 +4460,6 @@ function(a) {
 
             $('#mce-success-response').hide();
             $('#mce-error-response').hide();
-			console.log(JSON.stringify(resp))
             // On successful form submission, display a success message and reset the form
             if (resp.result == "success") {
 				newsletterFormEndAnimation()
