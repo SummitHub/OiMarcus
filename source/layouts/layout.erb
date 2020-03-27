@@ -111,8 +111,6 @@
       </div>
     </header>
     <%= yield %>
-
-
     <div>
       <div class="newsletter">
         <div class="container">
@@ -136,6 +134,7 @@
           </div>
         </div>
       </div>
+      <%#
       <div class="newsletter">
         <div class="container">
           <div class="newsletter-section_content">
@@ -158,12 +157,20 @@
           </div>
         </div>
       </div>
+      %>
       <footer class="footer"><a href="https://summithub.com.br" target="_blank" style="text-align: center;"><img src="/images/logo_hub.svg" width="182" alt=""></a>
         <div class="footer_text">Todos os direitos reservados - Summit Hub - 2019</div>
       </footer>
     </div>
 
     <script>
+      var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutationRecord) {
+                $('#mce-success-response').text('Enviado!');
+            });    
+      });
+      var target = document.getElementById('mce-success-response');
+      observer.observe(target, { attributes : true, attributeFilter : ['style'] });
 
       window.onload = function () {
         var url_array = document.URL.split('#') 
@@ -174,8 +181,7 @@
 
       Array.from(document.getElementsByClassName("month-abreviation")).forEach((element) => {
         element.textContent = monthsTranslation[element.textContent]
-      });
-           
+      });  
       function formEndAnimation(formMarker) {
         switch(formMarker){
           case 'News-Marcus-Site': newsletterFormEndAnimation();
@@ -184,7 +190,6 @@
             break;
         }
       }
-
       function newsletterFormEndAnimation() {
         $('#mc-embedded-subscribe').val('Pronto!')
         $('.footer_newsletter_form-block').css('opacity', '0.5')
@@ -195,7 +200,6 @@
           }, 2000);
         }
       }
-
       function TalkFormEndAnimation() {
         $('#submit-form-button').val('Pronto!')
         $('.talk-block').css('opacity', '0.5')
@@ -207,14 +211,6 @@
           }, 2000);
         }
       }
-
-
-
-
-
-
-
-
     </script>  
     <%= javascript_include_tag "mc-validate.js" %>
     <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
