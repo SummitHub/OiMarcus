@@ -112,7 +112,7 @@
     </header>
     <%= yield %>
     <div>
-      <div class="newsletter">
+      <div id="newsletter-section" class="newsletter">
         <div class="container">
           <div class="newsletter-section_content">
             <h2 class="about-section_h2 newsletter-section_h2">Quer receber novidades?<br><span class="white">Assine nossa newsletter</span></h2>
@@ -174,8 +174,11 @@
 
       window.onload = function () {
         var url_array = document.URL.split('#') 
-        if (url_array[url_array.length-1] == "form") {
+        if (url_array[url_array.length-1] == "palestra") {
           document.getElementById('form-button').click()
+        }
+        if (url_array[url_array.length-1] == "newsletter") {
+          window.scrollTo({ top: $('#newsletter-section').offset().top-180, behavior: 'smooth' })
         }
       }
 
