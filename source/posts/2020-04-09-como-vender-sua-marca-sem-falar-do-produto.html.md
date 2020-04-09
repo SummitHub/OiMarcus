@@ -1,7 +1,7 @@
 ---
 title: Como vender sua marca sem falar do produto?
 readTime: 3
-mainImage: /images/uploads/48495271821_0798ceb84c_c.jpg
+mainImage: /images/uploads/48495846712_4123ba7807_o.jpg
 date: "2020-04-09T14:44:03.694Z"
 ---
 <!--StartFragment-->
