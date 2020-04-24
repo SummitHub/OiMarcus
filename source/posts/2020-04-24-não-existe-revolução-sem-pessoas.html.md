@@ -1,7 +1,7 @@
 ---
 title: Não existe revolução sem pessoas
 readTime: 3
-mainImage: /images/uploads/photo-1543269865-cbf427effbad.jpg
+mainImage: /images/uploads/photo-1543269865-cbf427effbad-1-.jpg
 date: 2020-04-24T17:46:30.117Z
 ---
 
