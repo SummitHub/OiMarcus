@@ -1,5 +1,5 @@
 ---
-title: O que a paternidade me ensina sobre empreenderismo
+title: O que a paternidade me ensina sobre empreendedorismo
 readTime: 3
 mainImage: /images/uploads/94381773_2976961905680770_4377852661504933888_o.jpg
 date: 2020-04-30T18:13:10.171Z
